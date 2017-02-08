@@ -1,9 +1,9 @@
-package me.raatiniemi.euler
+package me.raatiniemi.euler.solution
 
-object Problem1 {
+object MultiplesOf3And5 {
   private val maxLimit = 1000
 
-  def main(args: Array[String]) {
+  def apply(): Unit = {
     val sum = (1 until maxLimit)
       .filter(isMultiplesOfThreeOrFive)
       .sum
